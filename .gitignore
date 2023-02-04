@@ -1,0 +1,24 @@
+# Go bin, pkg and vendor directories
+bin/
+pkg/
+vendor/
+
+# Goland metadata and workspace files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Go dependencies managed by dep
+Gopkg.lock
+Gopkg.toml
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
